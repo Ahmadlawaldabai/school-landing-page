@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .sh1{
+    width: 400px;
+    float: left;
+    height: 70px;
+    font-family: Arial;
+
+}
+    </style>
+    <style>
+        /* Basic CSS styles (you can style it further as needed) */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+            
+        }
+        button.hover{
+            color: white;
+        }
+        a:hover{
+            color: white;
+        }
+        body {
+            background-image: url(img\ \(2\).jpg); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            
+        }
+
+        .h1{
+            text-align:center ;
+            color: black;
+        }
+       
+        .logo{
+            background-color: goldenrod;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>SCHOOL</h1>
+<ul>
+    <li>
+    <a href="dabai.html">HOME</a>
+    <a href="About.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+    <a href="service.html">SERVICE</a>
+</li>
+</ul>
+
+    <style>
+    ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease ease-in-out;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+
+
+    </style>
+    </nav>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="process.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Your Website Name. All Rights Reserved.</p>
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
